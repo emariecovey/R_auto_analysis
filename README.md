@@ -26,3 +26,18 @@ The following table is the summary statistics grouped for each manufacturing lot
 
 ![by lot pic](https://github.com/emariecovey/R_auto_analysis/blob/main/images/By_lot_summary.png)
 
+## T-Tests on Suspension Coils
+
+The next tests were t-tests measuring the difference in suspension coil PSI. First, a t-test was performed on all of the lots combined, against the population mean of 1,500 pounds per square inch. Then, each lots' average PSI was compared to the population mean (again, 1500).
+
+The combined-lot t-test had a p-value of .06, which was just above the threshold of signifigance. According to the combined t-test, the average PSI produced by the three manufacturing lots was not significantly different from the population mean of 1500.
+
+The p-values for the first two manufacturing lots were not significant, but the third lot was. Because of this, the third manufacturing lot's mean is statistically significantly different from the population mean. This is not suprising, since the variance for the third lot in the summary statisics above was much higher than the variance in the first and second lots. 
+
+This is the output for the overall t-test:
+
+![overall t test](https://github.com/emariecovey/R_auto_analysis/blob/main/images/overall_t_tests.png)
+
+This is the outputs for the three manufacturing lots:
+
+![by lot t test](https://github.com/emariecovey/R_auto_analysis/blob/main/images/three_t_tests.png)
