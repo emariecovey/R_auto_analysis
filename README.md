@@ -10,4 +10,4 @@ Overall, the model did predict 71% of the variance among MPG differences in the 
 
 The following image is the regression output for this test: 
 
-![linear regression pic]("https://github.com/emariecovey/R_auto_analysis/blob/main/linear_regression.png)
+![linear regression pic](https://github.com/emariecovey/R_auto_analysis/blob/main/linear_regression.png)
