@@ -41,3 +41,23 @@ This is the output for the overall t-test:
 This is the outputs for the three manufacturing lots:
 
 ![by lot t test](https://github.com/emariecovey/R_auto_analysis/blob/main/images/three_t_tests.png)
+
+## Study Design: MechaCar vs Competition
+
+The following is the design of a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. 
+
+##### Metrics Needed: 
+
+The most important factors in a car (to me personally) are city fuel efficiency and safety rating, since I use my car most often to drive my kids on errands around the city. Because of this, I would want to study MechaCar mean city fuel efficiency and mean safety rating against the mean city fuel efficiency and mean safety rating of all vehicles (population).  
+
+##### Statistical Test: 
+
+Since I would be comparing mechacar means to means of a population of cars, I would use a one-sample t-test. 
+
+##### Null and Alternative Hypotheses:
+    - Null hypothesis: the means are not statistically significantly different, and the difference between the means is 0. 
+    - Alternative hypothesis: the means are statistically significantly different (either MechaCar vehicles performed better or worse than cars from other manufacturers). The difference between the means is not 0. 
+
+##### Data Required:
+
+I would need a dataset of safety ratings and fuel efficiencies from MechaCar cars, as well as the average safety rating and fuel efficiency for all cars. 
