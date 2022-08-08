@@ -10,4 +10,19 @@ Overall, the model did predict 71% of the variance among MPG differences in the 
 
 The following image is the regression output for this test: 
 
-![linear regression pic](https://github.com/emariecovey/R_auto_analysis/blob/main/linear_regression.png)
+![linear regression pic](https://github.com/emariecovey/R_auto_analysis/blob/main/images/linear_regression.png)
+
+## Summary Statistics on Suspension Coils
+
+These summary statistics describe a dataset containing the results from multiple vehicle production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
+
+Design specifications for suspension coils dictate that variance of suspension coils cannot exceed 100 lb/in^2. The variance for Lots 1 and 2 are far below this specification, but variance for Lot 3 is much higher (170), and coils produced in this manufacturing lot are not up to standard. When looking at total variance from all of the lots, it is below the 100 threshold; this shows the benefit of looking at variance from each lot to identify problematic manufacturing. 
+
+The following table is the summary statistics for all manufacturing lots:
+
+![total summary pic](https://github.com/emariecovey/R_auto_analysis/blob/main/images/Total_summary.png)
+
+The following table is the summary statistics grouped for each manufacturing lot:
+
+![by lot pic](https://github.com/emariecovey/R_auto_analysis/blob/main/images/By_lot_summary.png)
+
